@@ -76,13 +76,13 @@ In `utils/addresses.tsx` you will replace the addresses with the relevant addres
 #### Part 1: Deploy a 1/1 Safe without funds in the owner’s wallet using a relayer
 
 ```bash
-npx tsx --no-warnings sec/deploySafe.tsx
+npx tsx --no-warnings src/deploySafe.tsx
 ```
 
 #### Part 2: Sending sponsored transactions to any address from the Safe
 
 ```bash
-npx tsx --no-warnings sec/sendTransaction.tsx
+npx tsx --no-warnings src/sendTransaction.tsx
 ```
 
 ## 🔎 Quick overview of the approach followed
